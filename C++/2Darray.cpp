@@ -13,6 +13,10 @@ int main()
         cout<<endl;
         
     }
+    int size = sizeof(arr)/sizeof(arr[0]);
+    cout<<sizeof(arr) <<endl; // in byte
+    cout<<sizeof(arr[0])<<endl;
+    cout<<size<<endl;
     return 0;
     
 
