@@ -10,6 +10,7 @@ int BinarySearch( int arr[], int n, int key)
         int mid = (start+end)/2;
         if(arr[mid]==key)
         {
+            cout<<"key value located at index no: ";
             return mid;
         }
         else if(key>arr[mid])
@@ -20,6 +21,7 @@ int BinarySearch( int arr[], int n, int key)
             end = mid - 1;
         }
     }
+    cout<<"key value located at index no: ";
     return -1;
 }
 
